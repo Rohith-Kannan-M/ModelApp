@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL = "http://192.168.106.8/dashboard/";
+    private static final String BASE_URL = "http://192.168.106.9/dashboard/";
     private static Retrofit retrofit;
 //http://192.168.106.8/dashboard/config.php
     public static Retrofit getApiClinet(){
